@@ -9,7 +9,7 @@ public class UsingOtherComponents : MonoBehaviour
     private YetAnotherScript yetAnotherScript;
     private BoxCollider boxCol;
     // Start is called before the first frame update
-    void Awake ()
+    void Awake()
     {
         anotherScript = GetComponent<AnotherScript>();
         yetAnotherScript = otherGameObject.GetComponent<YetAnotherScript>();
@@ -25,6 +25,6 @@ public class UsingOtherComponents : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
