@@ -18,5 +18,6 @@ public class AxisRawExample : MonoBehaviour
         float xPos = h * range;
 
         transform.position = new Vector3(xPos, 2f, 0);
+        Debug.Log("Value Returned: "); 
     }
 }
